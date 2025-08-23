@@ -59,7 +59,7 @@ const NavBar = () => {
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col">
                 {/* Navbar */}
-                <div className="w-full navbar bg-base-100 shadow-sm px-1 md:px-10 lg:px-16">
+                <div className="w-full navbar bg-base-100 px-1 md:px-10 lg:px-16">
                     <div className="flex-1">
                         <img className="w-[180px]" src={logo} alt="" />
                     </div>
