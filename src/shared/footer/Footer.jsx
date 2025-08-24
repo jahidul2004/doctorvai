@@ -61,9 +61,9 @@ const Footer = () => {
                 <p>Subscribe and stay updated from the DoctorVai</p>
                 <fieldset className="w-80">
                     <label>Enter your email address</label>
-                    <div className="mt-3 border border-[#06aed4] p-1 rounded bg-white flex items-center gap-2">
+                    <div className="mt-3 border border-[#06aed4] p-1 rounded-full bg-white flex items-center gap-2">
                         <input
-                            className="input border-none"
+                            className="input border-none rounded-full"
                             type="email"
                             placeholder="username@site.com"
                         />
