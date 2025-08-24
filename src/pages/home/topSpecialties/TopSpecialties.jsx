@@ -17,7 +17,7 @@ import pediatricsImage from "../../../assets/specialtyIcons/pediatricsImage.jpg"
 import psychiatryIcon from "../../../assets/specialtyIcons/psychiatryIcon.svg";
 import psychiatryImage from "../../../assets/specialtyIcons/psychiatryImage.jpg";
 
-import endocrinologyIcon from "../../../assets/specialtyIcons/endocrinologyIcon.svg";
+import endocrinologyIcon from "../../../assets/specialtyIcons/endoCrinologyIcon.svg";
 import endocrinologyImage from "../../../assets/specialtyIcons/endocrinologyImage.jpg";
 
 import urologyIcon from "../../../assets/specialtyIcons/urologyIcon.svg";
