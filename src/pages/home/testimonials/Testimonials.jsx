@@ -125,7 +125,7 @@ const Testimonials = () => {
                 {/* Header area end */}
 
                 {/* Main content */}
-                <div className="w-[98%] md:w-[96%] lg:w-[90%] mx-auto grid grid-cols-3 gap-4 md:gap-8">
+                <div className="grid grid-cols-3 gap-4 md:gap-8">
                     <Marquee
                         pauseOnHover={true}
                         speed={30}
