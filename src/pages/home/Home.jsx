@@ -2,6 +2,7 @@ import FacilitiesMarquee from "./facilitiesMarquee/FacilitiesMarquee";
 import FeaturedDoctors from "./featuredDoctors/FeaturedDoctors";
 import Header from "./header/Header";
 import TopSpecialties from "./topSpecialties/TopSpecialties";
+import WhyChooseUs from "./whyChooseUs/WhyChooseUs";
 
 const Home = () => {
     return (
@@ -21,6 +22,10 @@ const Home = () => {
             {/* Facilities Marquee */}
             <FacilitiesMarquee />
             {/* Facilities Marquee end */}
+
+            {/* Why choose us */}
+            <WhyChooseUs></WhyChooseUs>
+            {/* Why choose us end */}
         </div>
     );
 };
