@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import SectionHead from "../../../components/sectionHead/SectionHead";
 import DoctorCard from "../../../components/doctorCard/DoctorCard";
+import { Link } from "react-router-dom";
+import { FaUserDoctor } from "react-icons/fa6";
 
 const FeaturedDoctors = () => {
     const [doctors, setDoctors] = useState([]);
@@ -27,6 +29,15 @@ const FeaturedDoctors = () => {
                 ))}
             </div>
             {/* Doctors card end */}
+
+            <div className="my-6 md:my-8 lg:my-12 flex items-center justify-center">
+                <Link
+                    className="btn rounded-full bg-[#012047] text-white"
+                    to="/doctors"
+                >
+                    <FaUserDoctor /> View All Doctors
+                </Link>
+            </div>
         </div>
     );
 };
