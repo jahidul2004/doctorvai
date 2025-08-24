@@ -1,4 +1,5 @@
 import Header from "./header/Header";
+import TopSpecialties from "./topSpecialties/TopSpecialties";
 
 const Home = () => {
     return (
@@ -6,6 +7,10 @@ const Home = () => {
             {/* Header */}
             <Header />
             {/* Header end */}
+
+            {/* Top specialties */}
+            <TopSpecialties></TopSpecialties>
+            {/* Top specialties end */}
         </div>
     );
 };
