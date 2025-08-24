@@ -43,9 +43,7 @@ const DoctorCard = ({ data }) => {
                         {data?.name}
                     </h1>
                     <span className="flex items-center gap-1 text-gray-500">
-                        <IoLocationOutline />
-                        {data?.address.split(",")[2].trim()}
-                        <MdOutlineWatchLater /> 30 MIN
+                        {data?.degree}
                     </span>
                 </div>
 
