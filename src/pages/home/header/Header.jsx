@@ -20,7 +20,7 @@ const Header = () => {
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
-            className="relative mb-20 py-20"
+            className="relative mb-20 py-20 max-w-full"
         >
             {/* Shapes */}
             <div className="absolute top-0 right-0 z-[-1]">
@@ -78,8 +78,9 @@ const Header = () => {
                             </div>
                         </div>
 
-                        <h1 className="text-5xl font-bold mt-6 text-[#012047] tracking-wide">
-                            Discover Health: Find Your <br /> Trusted{" "}
+                        <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold mt-6 text-[#012047] tracking-wide">
+                            Discover Health: Find Your{" "}
+                            <br className="hidden md:block" /> Trusted{" "}
                             <img
                                 className="w-[80px] mx-2 inline bg-[#000f2833] px-3 rounded-full"
                                 src={videoIcon}
@@ -90,9 +91,9 @@ const Header = () => {
                         </h1>
 
                         {/* Search box */}
-                        <div className="flex items-center bg-white border border-[#06aed4] rounded-full shadow-sm overflow-hidden w-full max-w-4xl mx-auto p-2 mt-6">
+                        <div className="grid grid-cols-2 md:flex gap-2 md:gap-0 items-center bg-white border border-[#06aed4] md:rounded-full shadow-sm overflow-hidden w-full max-w-4xl mx-auto p-2 mt-6 rounded-lg">
                             {/* Doctors */}
-                            <div className="flex items-center gap-2 px-4 py-3 border-r border-[#06aed4] w-full">
+                            <div className="flex items-center gap-2 px-4 py-3 border-r border-[#06aed4] w-full border md:border-0 rounded-full">
                                 <FaUserMd className="text-[#06aed4] text-lg" />
                                 <input
                                     type="text"
@@ -102,7 +103,7 @@ const Header = () => {
                             </div>
 
                             {/* Location */}
-                            <div className="flex items-center gap-2 px-4 py-3 border-r border-[#06aed4] w-60">
+                            <div className="flex items-center gap-2 px-4 py-3 border-r border-[#06aed4] md:w-60 border md:border-0 w-full rounded-full">
                                 <FaLocationDot className="text-[#06aed4] text-lg" />
                                 <input
                                     type="text"
@@ -112,7 +113,7 @@ const Header = () => {
                             </div>
 
                             {/* Date */}
-                            <div className="flex items-center gap-2 px-4 py-3 border-r border-[#06aed4] w-48">
+                            <div className="flex items-center gap-2 px-4 py-3 border-r border-[#06aed4] md:w-48 w-full border md:border-0 rounded-full">
                                 <FaCalendarAlt className="text-[#06aed4] text-lg" />
                                 <input
                                     type="date"
@@ -121,7 +122,7 @@ const Header = () => {
                             </div>
 
                             {/* Search Button */}
-                            <button className="btn rounded-full bg-[#06aed4] hover:bg-[#0599b9] text-white p-6 flex items-center gap-2 ml-2">
+                            <button className="btn rounded-full bg-[#06aed4] hover:bg-[#0599b9] text-white p-6 flex items-center gap-2 ml-2 w-full md:w-max">
                                 <FaUserMd className="text-white" />
                                 Search
                             </button>
@@ -138,7 +139,7 @@ const Header = () => {
                         alt="Health"
                     />
 
-                    <div className="bg-[#012047] text-white p-3 rounded-md text-center absolute bottom-5 left-0">
+                    <div className="absolute bottom-90 md:bottom-5 bg-[#012047] text-white p-3 rounded-md text-center">
                         <h1 className="font-bold text-lg">15K+</h1>
                         <p>Satisfied Patients</p>
                     </div>

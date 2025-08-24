@@ -12,7 +12,7 @@ const BottomTab = () => {
 absolute left-1/2 -translate-x-1/2 -bottom-15"
         >
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
-                <div className="flex flex-col items-center gap-2">
+                <div className="flex flex-col items-center gap-2 hover:text-[#06aed4] cursor-pointer transition ease-in-out duration-200">
                     <div className="w-16 h-16 rounded-full flex items-center justify-center bg-[#dd2590]">
                         <FaCalendarCheck className="text-white" size={22} />
                     </div>
@@ -20,7 +20,7 @@ absolute left-1/2 -translate-x-1/2 -bottom-15"
                         Book Appointment
                     </span>
                 </div>
-                <div className="flex flex-col items-center gap-2">
+                <div className="flex flex-col items-center gap-2 hover:text-[#06aed4] cursor-pointer transition ease-in-out duration-200">
                     <div className="w-16 h-16 rounded-full flex items-center justify-center bg-[#06aed4]">
                         <HiUsers className="text-white" size={22} />
                     </div>
@@ -28,7 +28,7 @@ absolute left-1/2 -translate-x-1/2 -bottom-15"
                         Talk to doctors
                     </span>
                 </div>
-                <div className="flex flex-col items-center gap-2">
+                <div className="flex flex-col items-center gap-2 hover:text-[#06aed4] cursor-pointer transition ease-in-out duration-200">
                     <div className="w-16 h-16 rounded-full flex items-center justify-center bg-[#822bd4]">
                         <TbBuildingHospital className="text-white" size={22} />
                     </div>
@@ -36,19 +36,19 @@ absolute left-1/2 -translate-x-1/2 -bottom-15"
                         Hospital Clinic
                     </span>
                 </div>
-                <div className="flex flex-col items-center gap-2">
+                <div className="flex flex-col items-center gap-2 hover:text-[#06aed4] cursor-pointer transition ease-in-out duration-200">
                     <div className="w-16 h-16 rounded-full flex items-center justify-center bg-[#e04f16]">
                         <FaHeartPulse className="text-white" size={22} />
                     </div>
                     <span className="text-lg font-semibold">Health Care</span>
                 </div>
-                <div className="flex flex-col items-center gap-2">
+                <div className="flex flex-col items-center gap-2 hover:text-[#06aed4] cursor-pointer transition ease-in-out duration-200">
                     <div className="w-16 h-16 rounded-full flex items-center justify-center bg-[#0e9384]">
                         <GiChemicalDrop className="text-white" size={22} />
                     </div>
                     <span className="text-lg font-semibold">Labe Test</span>
                 </div>
-                <div className="flex flex-col items-center gap-2">
+                <div className="flex flex-col items-center gap-2 hover:text-[#06aed4] cursor-pointer transition ease-in-out duration-200">
                     <div className="w-16 h-16 rounded-full flex items-center justify-center bg-[#ef5d38]">
                         <LiaNotesMedicalSolid
                             className="text-white"
