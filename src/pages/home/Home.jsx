@@ -1,4 +1,5 @@
 import FacilitiesMarquee from "./facilitiesMarquee/FacilitiesMarquee";
+import FAQ from "./faq/FAQ";
 import FeaturedDoctors from "./featuredDoctors/FeaturedDoctors";
 import Header from "./header/Header";
 import Testimonials from "./testimonials/Testimonials";
@@ -31,6 +32,10 @@ const Home = () => {
             {/* Testimonials */}
             <Testimonials></Testimonials>
             {/* Testimonials end */}
+
+            {/* FAQ */}
+            <FAQ />
+            {/* FAQ end */}
         </div>
     );
 };
