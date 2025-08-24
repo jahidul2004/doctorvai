@@ -1,4 +1,11 @@
+import { IoLogoGooglePlaystore } from "react-icons/io5";
 import SectionHead from "../../../components/sectionHead/SectionHead";
+import { FaAppStore } from "react-icons/fa";
+import mobileImage from "../../../assets/images/mobile-img.png";
+
+import appBg2 from "../../../assets/background/app-bg-02.png";
+import appBg3 from "../../../assets/background/app-bg-03.png";
+import appBg4 from "../../../assets/background/app-bg-04.png";
 
 const FAQ = () => {
     return (
@@ -73,6 +80,49 @@ const FAQ = () => {
                 </div>
             </div>
             {/* Questions end */}
+
+            {/* Mobile app ad */}
+            <div className="bg-gradient-to-br from-[#0e83fd] to-[#06aed4] w-[98%] md:w-[96%] lg:w-[90%] mx-auto mt-10 rounded-3xl grid grid-cols-1 md:grid-cols-2 gap-4 relative">
+                <div className="p-4 md:p-6 lg:p-8 flex flex-col items-center justify-center">
+                    <div>
+                        <h1 className="text-4xl font-bold text-white">
+                            Download the DoctorVai App today!
+                        </h1>
+                        <p className="mt-2 font-semibold text-white">
+                            To download an app related to a doctor or medical
+                            services, you can typically visit the app store on
+                            your device.
+                        </p>
+                        <div className="flex gap-2 mt-4">
+                            <h1 className="flex items-center gap-2 text-lg font-bold border rounded-md p-2 w-max border-white text-white ">
+                                <IoLogoGooglePlaystore /> Play Store
+                            </h1>
+                            <h1 className="flex items-center gap-2 text-lg font-bold border rounded-md p-2 w-max border-white text-white ">
+                                <FaAppStore /> App Store
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="pt-6">
+                    <img
+                        className="h-[450px] z-[10]"
+                        src={mobileImage}
+                        alt="Mobile App"
+                    />
+                </div>
+
+                {/* Shapes */}
+                <img className="absolute bottom-0 left-4" src={appBg2} alt="" />
+                <img className="absolute top-4 left-0" src={appBg3} alt="" />
+                <img
+                    className="absolute bottom-4 right-0 z-[0]"
+                    src={appBg4}
+                    alt=""
+                />
+                {/* Shapes end */}
+            </div>
+            {/* Mobile app ad end */}
         </div>
     );
 };
