@@ -1,3 +1,4 @@
+import FeaturedDoctors from "./featuredDoctors/FeaturedDoctors";
 import Header from "./header/Header";
 import TopSpecialties from "./topSpecialties/TopSpecialties";
 
@@ -11,6 +12,10 @@ const Home = () => {
             {/* Top specialties */}
             <TopSpecialties></TopSpecialties>
             {/* Top specialties end */}
+
+            {/* Featured doctors */}
+            <FeaturedDoctors></FeaturedDoctors>
+            {/* Featured doctors end */}
         </div>
     );
 };

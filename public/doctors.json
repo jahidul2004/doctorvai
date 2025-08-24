@@ -1,0 +1,404 @@
+[
+    {
+        "id": "DOC-001",
+        "name": "Dr. Nafisa Rahman",
+        "address": "Square Hospital, West Panthapath, Dhaka 1205",
+        "duration": "30 minutes per appointment",
+        "status": "Available",
+        "department": "Neurology",
+        "specialty": [
+            "Neurology Consultation",
+            "Headache & Migraine Care",
+            "Epilepsy Management",
+            "Stroke Follow-up",
+            "Peripheral Neuropathy"
+        ],
+        "image": "https://i.ibb.co.com/gLMH0fB8/doctor-grid-01.jpg",
+        "fees": 1200,
+        "degree": ["MBBS (DU)", "FCPS (Medicine)", "MD (Neurology, BSMMU)"],
+        "isvarified": true,
+        "speaks": ["Bengali", "English"],
+        "ratings": 4.8,
+        "mobileNumber": "+8801711001100",
+        "email": "nafisa.rahman.neuro@square.com",
+        "whatsappno": "+8801711001100",
+        "patientCount": 5400,
+        "experience": [
+            {
+                "protishthanName": "BSMMU (Neurology)",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/BSMMU_Logo.png",
+                "dept": "Neurology",
+                "joiningdate": "2016-03",
+                "relasingdate": "2020-12",
+                "details": "Registrar to Assistant Professor; stroke unit & epilepsy clinic."
+            },
+            {
+                "protishthanName": "Square Hospital",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Square_Hospitals_Logo.png",
+                "dept": "Neurology & Stroke",
+                "joiningdate": "2021-01",
+                "relasingdate": "",
+                "details": "Consultant Neurologist; running headache and EEG services."
+            }
+        ],
+        "inpractice": 9,
+        "awards": [
+            {
+                "awardtitle": "Best Young Neurologist (BAN, 2019)",
+                "desc": "Awarded for research on migraine patterns in South Asia."
+            }
+        ],
+        "clinics": [
+            {
+                "clinicsname": "Square Neuroscience OPD",
+                "address": "Level 3, Outpatient Block, Square Hospital, Dhaka",
+                "phone": "+8809610001234",
+                "schedule": "Sun-Thu 3pm-8pm"
+            },
+            {
+                "clinicsname": "City Heart & Brain Care",
+                "address": "House 12, Road 2, Dhanmondi, Dhaka",
+                "phone": "+8801711223344",
+                "schedule": "Fri 10am-1pm"
+            }
+        ],
+        "servicesandpricing": [
+            { "servicename": "Neurology Consultation", "price": 1200 },
+            { "servicename": "EEG (report next day)", "price": 3000 },
+            {
+                "servicename": "Migraine Protocol (3-visit pack)",
+                "price": 4500
+            },
+            { "servicename": "Stroke Follow-up", "price": 1500 }
+        ]
+    },
+    {
+        "id": "DOC-002",
+        "name": "Dr. Ayan Chowdhury",
+        "address": "United Hospital, Plot 15, Road 71, Gulshan, Dhaka",
+        "duration": "25 minutes per appointment",
+        "status": "Available",
+        "department": "Pediatrics",
+        "specialty": [
+            "Orthopedic Consultation",
+            "Arthroscopy",
+            "Sports Injury",
+            "Joint Replacement",
+            "Fracture Management"
+        ],
+        "image": "https://i.ibb.co.com/yc05Jb0m/doctor-grid-02.jpg",
+        "fees": 1000,
+        "degree": [
+            "MBBS (CU)",
+            "MS (Orthopedics)",
+            "Fellowship in Sports Medicine (India)"
+        ],
+        "isvarified": true,
+        "speaks": ["Bengali", "English", "Hindi"],
+        "ratings": 4.7,
+        "mobileNumber": "+8801712002200",
+        "email": "ayan.ortho@united.com",
+        "whatsappno": "+8801712002200",
+        "patientCount": 8200,
+        "experience": [
+            {
+                "protishthanName": "Chittagong Medical College",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0a/CMC_logo.png",
+                "dept": "Orthopedics",
+                "joiningdate": "2014-01",
+                "relasingdate": "2018-06",
+                "details": "Resident and trauma unit exposure."
+            },
+            {
+                "protishthanName": "United Hospital",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/United_Hospital_Logo.png",
+                "dept": "Orthopedics & Sports Medicine",
+                "joiningdate": "2018-07",
+                "relasingdate": "",
+                "details": "Consultant; knee & shoulder arthroscopy specialist."
+            }
+        ],
+        "inpractice": 11,
+        "awards": [
+            {
+                "awardtitle": "AO Trauma Fellowship (2017)",
+                "desc": "Advanced trauma management training."
+            }
+        ],
+        "clinics": [
+            {
+                "clinicsname": "United Ortho OPD",
+                "address": "Gulshan, Dhaka",
+                "phone": "+8809666712345",
+                "schedule": "Sat-Wed 4pm-9pm"
+            }
+        ],
+        "servicesandpricing": [
+            { "servicename": "Orthopedic Consultation", "price": 1000 },
+            { "servicename": "Plaster/Cast Application", "price": 1500 },
+            { "servicename": "Arthroscopy (package)", "price": 120000 },
+            { "servicename": "ACL Rehab Program (4 weeks)", "price": 8000 }
+        ]
+    },
+    {
+        "id": "DOC-003",
+        "name": "Prof. Rezaul Karim",
+        "address": "Evercare Hospital Dhaka (ex-Apollo), Bashundhara R/A, Dhaka",
+        "duration": "30 minutes per appointment",
+        "status": "Available",
+        "department": "Cardiology",
+        "specialty": [
+            "Cardiology",
+            "Interventional Cardiology",
+            "Heart Failure Clinic",
+            "Hypertension Clinic",
+            "Cardiac Rehabilitation"
+        ],
+        "image": "https://i.ibb.co.com/Kj9BnmkZ/doctor-grid-03.jpg",
+        "fees": 1400,
+        "degree": ["MBBS (DU)", "MD (Cardiology)", "FACC (USA)"],
+        "isvarified": true,
+        "speaks": ["Bengali", "English"],
+        "ratings": 4.9,
+        "mobileNumber": "+8801713003300",
+        "email": "rezaul.karim.cardio@evercare.com",
+        "whatsappno": "+8801713003300",
+        "patientCount": 12000,
+        "experience": [
+            {
+                "protishthanName": "NICVD",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/4/49/NICVD_Dhaka_logo.png",
+                "dept": "Cardiology",
+                "joiningdate": "2009-01",
+                "relasingdate": "2016-12",
+                "details": "Interventional cardiologist; primary PCI team."
+            },
+            {
+                "protishthanName": "Evercare Hospital",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Evercare_logo.png",
+                "dept": "Cardiology",
+                "joiningdate": "2017-01",
+                "relasingdate": "",
+                "details": "Professor & Senior Consultant; structural heart program."
+            }
+        ],
+        "inpractice": 16,
+        "awards": [
+            {
+                "awardtitle": "FACC Recognition (2018)",
+                "desc": "Fellow of the American College of Cardiology."
+            },
+            {
+                "awardtitle": "Best PCI Outcomes (2021)",
+                "desc": "Institutional award for low complication rates."
+            }
+        ],
+        "clinics": [
+            {
+                "clinicsname": "Evercare Cardiac OPD",
+                "address": "Bashundhara R/A, Dhaka",
+                "phone": "+8809612310663",
+                "schedule": "Sun-Thu 10am-1pm, 4pm-8pm"
+            }
+        ],
+        "servicesandpricing": [
+            { "servicename": "Cardiology Consultation", "price": 1400 },
+            { "servicename": "Echo with Report", "price": 2500 },
+            { "servicename": "Holter (24h)", "price": 5000 },
+            { "servicename": "Cardiac Rehab (6 sessions)", "price": 7000 }
+        ]
+    },
+    {
+        "id": "DOC-004",
+        "name": "Dr. Farzana Ahmed",
+        "address": "BIRDEM General Hospital, Shahbag, Dhaka",
+        "duration": "20 minutes per appointment",
+        "status": "Available",
+        "department": "Urology",
+        "specialty": [
+            "Pediatrics",
+            "Neonatology",
+            "Vaccination",
+            "Growth & Development",
+            "Nutrition Counseling"
+        ],
+        "image": "https://i.ibb.co.com/1Jr2vJ3v/doctor-grid-04.jpg",
+        "fees": 900,
+        "degree": ["MBBS (SSMC)", "FCPS (Pediatrics)"],
+        "isvarified": true,
+        "speaks": ["Bengali", "English"],
+        "ratings": 4.6,
+        "mobileNumber": "+8801714004400",
+        "email": "farzana.ped@birdem.org",
+        "whatsappno": "+8801714004400",
+        "patientCount": 6300,
+        "experience": [
+            {
+                "protishthanName": "Dhaka Shishu Hospital",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/e/e9/Dhaka_Shishu_Hospital_logo.png",
+                "dept": "Pediatrics",
+                "joiningdate": "2015-01",
+                "relasingdate": "2019-08",
+                "details": "NICU & general pediatrics."
+            },
+            {
+                "protishthanName": "BIRDEM",
+                "logo": "https://upload.wikimedia.org/wikipedia/en/9/9d/BIRDEM_logo.png",
+                "dept": "Pediatrics & Neonatology",
+                "joiningdate": "2019-09",
+                "relasingdate": "",
+                "details": "Consultant; vaccine & growth clinic lead."
+            }
+        ],
+        "inpractice": 10,
+        "awards": [
+            {
+                "awardtitle": "Neonatal Care Excellence (2020)",
+                "desc": "For improving NICU protocols during pandemic."
+            }
+        ],
+        "clinics": [
+            {
+                "clinicsname": "BIRDEM OPD (Children)",
+                "address": "Shahbag, Dhaka",
+                "phone": "+88029661451",
+                "schedule": "Sat-Thu 9am-2pm"
+            },
+            {
+                "clinicsname": "Kids Care Chamber",
+                "address": "Mirpur DOHS, Dhaka",
+                "phone": "+8801715667788",
+                "schedule": "Fri 4pm-8pm"
+            }
+        ],
+        "servicesandpricing": [
+            { "servicename": "Pediatric Consultation", "price": 900 },
+            {
+                "servicename": "Vaccination (per shot, excl. vaccine)",
+                "price": 300
+            },
+            {
+                "servicename": "Growth & Nutrition Plan (1 month)",
+                "price": 1500
+            }
+        ]
+    },
+    {
+        "id": "DOC-005",
+        "name": "Dr. Tahmid Hasan",
+        "address": "National Institute of Mental Health, Sher-e-Bangla Nagar, Dhaka",
+        "duration": "30 minutes per appointment",
+        "status": "Limited Slots",
+        "department": "Neurology",
+        "specialty": [
+            "Psychiatry",
+            "Depression & Anxiety",
+            "Addiction Psychiatry",
+            "Sleep Disorders",
+            "Child & Adolescent Psychiatry"
+        ],
+        "image": "https://i.ibb.co.com/Q3JmB8NZ/doctor-grid-05.jpg",
+        "fees": 1100,
+        "degree": ["MBBS (RU)", "MD (Psychiatry)"],
+        "isvarified": true,
+        "speaks": ["Bengali", "English"],
+        "ratings": 4.7,
+        "mobileNumber": "+8801715005500",
+        "email": "tahmid.psy@nimh.gov.bd",
+        "whatsappno": "+8801715005500",
+        "patientCount": 4100,
+        "experience": [
+            {
+                "protishthanName": "NIMH",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3e/NIMHBD_logo.png",
+                "dept": "Psychiatry",
+                "joiningdate": "2017-02",
+                "relasingdate": "",
+                "details": "Addiction psychiatry clinic & CBT program."
+            }
+        ],
+        "inpractice": 8,
+        "awards": [
+            {
+                "awardtitle": "Mental Health Advocacy Award (2022)",
+                "desc": "Community-based therapy outreach leader."
+            }
+        ],
+        "clinics": [
+            {
+                "clinicsname": "MindCare Chamber",
+                "address": "House 45, Road 10, Banani, Dhaka",
+                "phone": "+8801700123456",
+                "schedule": "Tue-Fri 5pm-9pm"
+            }
+        ],
+        "servicesandpricing": [
+            { "servicename": "Psychiatry Consultation", "price": 1100 },
+            { "servicename": "CBT Session (50 min)", "price": 1800 },
+            { "servicename": "Addiction Detox Review", "price": 1500 },
+            { "servicename": "Sleep Hygiene Program (3 visits)", "price": 3000 }
+        ]
+    },
+    {
+        "id": "DOC-006",
+        "name": "Dr. Shaila Noor",
+        "address": "Ispahani Islamia Eye Institute & Hospital, Farmgate, Dhaka",
+        "duration": "20 minutes per appointment",
+        "status": "Available",
+        "department": "Neurology",
+        "specialty": [
+            "Ophthalmology",
+            "Cataract Surgery",
+            "Glaucoma Clinic",
+            "Retina Evaluation",
+            "Pediatric Eye"
+        ],
+        "image": "https://i.ibb.co.com/Kj9BnmkZ/doctor-grid-03.jpg",
+        "fees": 800,
+        "degree": ["MBBS (SSMC)", "MS (Ophthalmology)", "Fellow (Glaucoma)"],
+        "isvarified": true,
+        "speaks": ["Bengali", "English"],
+        "ratings": 4.6,
+        "mobileNumber": "+8801716006600",
+        "email": "shaila.noor.eye@iieih.org",
+        "whatsappno": "+8801716006600",
+        "patientCount": 7500,
+        "experience": [
+            {
+                "protishthanName": "Ispahani Islamia Eye Institute",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/4/47/Ispahani_Islamia_Logo.png",
+                "dept": "Ophthalmology - Glaucoma",
+                "joiningdate": "2015-06",
+                "relasingdate": "",
+                "details": "Consultant; advanced cataract & glaucoma services."
+            }
+        ],
+        "inpractice": 10,
+        "awards": [
+            {
+                "awardtitle": "Best Cataract Outcomes (2019)",
+                "desc": "Recognized for low complication rates."
+            }
+        ],
+        "clinics": [
+            {
+                "clinicsname": "Islamia Eye OPD",
+                "address": "Farmgate, Dhaka",
+                "phone": "+880258121235",
+                "schedule": "Sat-Thu 9am-5pm"
+            },
+            {
+                "clinicsname": "Vision Care Chamber",
+                "address": "Uttara Sector 7, Dhaka",
+                "phone": "+8801717889900",
+                "schedule": "Fri 3pm-8pm"
+            }
+        ],
+        "servicesandpricing": [
+            { "servicename": "Eye Consultation", "price": 800 },
+            { "servicename": "Refraction & Prescription", "price": 400 },
+            { "servicename": "Cataract Surgery (package)", "price": 45000 },
+            { "servicename": "Glaucoma Evaluation", "price": 2000 }
+        ]
+    }
+]
