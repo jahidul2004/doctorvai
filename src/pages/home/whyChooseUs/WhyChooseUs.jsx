@@ -64,11 +64,11 @@ const WhyChooseUs = () => {
 
             {/* 2nd section start */}
             <div className="bg-[#000f28]">
-                <div className=" grid grid-cols-2 gap-4 md:gap-8 lg:gap-12 w-[98%] md:w-[96%] lg:w-[90%] mx-auto py-20">
+                <div className=" grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:gap-12 w-[98%] md:w-[96%] lg:w-[90%] mx-auto py-20">
                     {/* Gallery layout */}
                     <div className="grid grid-cols-2 gap-4">
                         <img
-                            className="md:col-span-2 rounded-lg"
+                            className="col-span-2 rounded-lg"
                             src="https://i.ibb.co.com/4wNYdSGN/book-01.jpg"
                             alt="Gallery Image 1"
                         />
