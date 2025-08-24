@@ -139,6 +139,8 @@ const Header = () => {
                         alt="Health"
                     />
 
+                    <div className="absolute top-0 right-12 md:right-18 z-[-1] w-[70%] h-[70%] bg-gradient-to-b from-[#0073ff] to-[#9cecfe] rotate-[-15deg] rounded-t-4xl"></div>
+
                     <div className="absolute bottom-90 md:bottom-5 bg-[#012047] text-white p-3 rounded-md text-center">
                         <h1 className="font-bold text-lg">15K+</h1>
                         <p>Satisfied Patients</p>
