@@ -76,7 +76,7 @@ const NavBar = () => {
     return (
         <div>
             {/* Top Bar */}
-            <div className=" bg-[#f9f9f9] hidden md:block">
+            <div className=" bg-[#f9f9f9] hidden">
                 <div className="w-[98%] md:w-[96%] lg:w-[90%] mx-auto flex items-center justify-between py-2">
                     <div className="flex items-center gap-2">
                         <p className="flex items-center gap-2 text-sm">
