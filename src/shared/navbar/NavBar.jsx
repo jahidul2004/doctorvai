@@ -55,10 +55,10 @@ const NavBar = () => {
             <li className="mx-0 md:mx-1 lg:mx-2">
                 <NavLink
                     className="btn btn-sm rounded-full bg-gradient-to-r from-[#0E82FD] to-[#06aed4] text-md text-white border-none px-4"
-                    to="/"
+                    to="/login/patient"
                 >
                     <FaUserLock />
-                    Sign In
+                    Login
                 </NavLink>
             </li>
             <li className="mx-0 md:mx-1 lg:mx-2">
