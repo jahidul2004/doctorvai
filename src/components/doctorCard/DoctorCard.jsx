@@ -10,7 +10,7 @@ const DoctorCard = ({ data }) => {
             {/* Image area */}
             <div className="relative">
                 <img
-                    className="w-full h-[200px] object-cover"
+                    className="w-full md:h-[200px] object-cover"
                     src={data?.image}
                     alt={data?.name}
                 />
@@ -27,11 +27,11 @@ const DoctorCard = ({ data }) => {
             {/* Details area */}
             <div className="p-4">
                 <div className="flex justify-between">
-                    <h1 className="text-[#dd2590] font-semibold border-l-2 border-[#dd2590] pl-2 flex items-center">
+                    <h1 className="text-xs md:text-base text-[#dd2590] font-semibold border-l-2 border-[#dd2590] pl-2 flex items-center">
                         {data?.department}
                     </h1>
                     <p
-                        className={`btn btn-success btn-soft px-1 rounded-full btn-sm`}
+                        className={`btn btn-success btn-soft px-1 rounded-full btn-xs md:btn-sm`}
                     >
                         {" "}
                         •{data?.status}
@@ -39,23 +39,23 @@ const DoctorCard = ({ data }) => {
                 </div>
 
                 <div className="mt-2 border-b border-dashed border-gray-300 pb-3">
-                    <h1 className="text-lg font-bold text-[#012047]">
+                    <h1 className="text-sm md:text-lg font-bold text-[#012047]">
                         {data?.name}
                     </h1>
-                    <span className="flex items-center gap-1 text-gray-500">
+                    <span className="flex items-center gap-1 text-gray-500 text-xs md:text-base">
                         {data?.degree}
                     </span>
                 </div>
 
-                <div className="grid grid-cols-2 gap-2 mt-2">
-                    <div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
+                    <div className="text-center md:text-left">
                         <p className="text-gray-500">Consultation fee</p>
                         <p className="text-xl font-bold text-[#e04f16]">
                             ${data?.fees}
                         </p>
                     </div>
                     <div className="flex items-center justify-end">
-                        <Link className="btn btn-sm bg-[#012047] text-white rounded-full">
+                        <Link className="w-full md:w-max btn btn-sm bg-[#012047] text-white rounded-full">
                             <FaRegCalendarCheck />
                             Book Now
                         </Link>
