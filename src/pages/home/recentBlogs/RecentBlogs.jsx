@@ -22,14 +22,11 @@ const RecentBlogs = () => {
     return (
         <div className="mb-10 py-10">
             {/* Header area */}
-            <SectionHead
-                title="Recent Blogs"
-                subtitle="Stay updated with the latest news"
-            />
+            <SectionHead title="Recent Blogs" subtitle="Stay updated with us" />
             {/* Header area end */}
 
             {/* Main content */}
-            <div className="w-[98%] md:w-[96%] lg:w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 lg:gap-6">
+            <div className="w-[98%] md:w-[96%] lg:w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-4 lg:gap-6">
                 {blogs?.slice(0, 4).map((blog) => (
                     <BlogCard key={blog.id} data={blog} />
                 ))}

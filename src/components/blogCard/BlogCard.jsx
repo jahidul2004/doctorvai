@@ -18,7 +18,7 @@ const BlogCard = ({ data }) => {
             {/* Image area end */}
 
             {/* Details area */}
-            <div className="overflow-hidden">
+            <div>
                 <p className="bg-[#06aed4] rounded-full text-white px-2 w-max">
                     {data?.category}
                 </p>
