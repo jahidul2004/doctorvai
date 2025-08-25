@@ -7,6 +7,10 @@ import appBg2 from "../../../assets/background/app-bg-02.png";
 import appBg3 from "../../../assets/background/app-bg-03.png";
 import appBg4 from "../../../assets/background/app-bg-04.png";
 
+import playStoreLogo from "../../../assets/logo/google-play-01.svg";
+import appStoreLogo from "../../../assets/logo/app-store-01.svg";
+import { Link } from "react-router-dom";
+
 const FAQ = () => {
     return (
         <div className="my-10 py-10">
@@ -94,12 +98,12 @@ const FAQ = () => {
                             your device.
                         </p>
                         <div className="flex gap-2 mt-4">
-                            <h1 className="flex items-center gap-2 text-lg font-bold border rounded-md p-2 w-max border-white text-white ">
-                                <IoLogoGooglePlaystore /> Play Store
-                            </h1>
-                            <h1 className="flex items-center gap-2 text-lg font-bold border rounded-md p-2 w-max border-white text-white ">
-                                <FaAppStore /> App Store
-                            </h1>
+                            <Link to={"https://play.google.com/"}>
+                                <img src={playStoreLogo} alt="Play Store" />
+                            </Link>
+                            <Link to={"https://www.apple.com/app-store/"}>
+                                <img src={appStoreLogo} alt="App Store" />
+                            </Link>
                         </div>
                     </div>
                 </div>
