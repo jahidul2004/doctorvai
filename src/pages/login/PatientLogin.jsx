@@ -4,7 +4,7 @@ import { FaUserLock } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { Link } from "react-router-dom";
 
-const PatientRegister = () => {
+const PatientLogin = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 items-center my-10 py-10">
             <div>
@@ -19,23 +19,13 @@ const PatientRegister = () => {
                 >
                     <div className="flex items-center justify-between mb-2">
                         <h1 className="text-lg text-[#012047] font-bold">
-                            Patient Register
+                            Patient Login
                         </h1>
                         <p className="font-bold text-[#0B90F0]">
                             Are you a doctor?
                         </p>
                     </div>
                     <div className="border-b pb-4 border-gray-300 mb-4">
-                        <fieldset className="fieldset">
-                            <legend className="fieldset-legend text-[#012047]">
-                                Full Name
-                            </legend>
-                            <input
-                                type="text"
-                                className="input"
-                                placeholder="Enter your name"
-                            />
-                        </fieldset>
                         <fieldset className="fieldset">
                             <legend className="fieldset-legend text-[#012047]">
                                 Email
@@ -48,18 +38,18 @@ const PatientRegister = () => {
                         </fieldset>
                         <fieldset className="fieldset">
                             <legend className="fieldset-legend text-[#011731]">
-                                Create Password
+                                Password
                             </legend>
                             <input
                                 type="password"
                                 className="input"
-                                placeholder="Create a password"
+                                placeholder="Enter your password"
                             />
                         </fieldset>
 
                         <button className="btn bg-[#0B90F0] text-white w-full mt-4">
                             <FaUserLock />
-                            Sign Up
+                            Login
                         </button>
                     </div>
                     <button className="btn border border-gray-300 text-[#0B90F0] w-full">
@@ -68,9 +58,12 @@ const PatientRegister = () => {
                     </button>
 
                     <p className="mt-4 text-sm text-center">
-                        Already have an account?{" "}
-                        <Link to="/login/patient" className=" text-[#0B90F0]">
-                            Login
+                        Don't have an account?
+                        <Link
+                            to="/register/patient"
+                            className=" text-[#0B90F0]"
+                        >
+                            Register
                         </Link>
                     </p>
                 </form>
@@ -80,4 +73,4 @@ const PatientRegister = () => {
     );
 };
 
-export default PatientRegister;
+export default PatientLogin;
