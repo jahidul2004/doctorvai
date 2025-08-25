@@ -2,6 +2,7 @@ import FacilitiesMarquee from "./facilitiesMarquee/FacilitiesMarquee";
 import FAQ from "./faq/FAQ";
 import FeaturedDoctors from "./featuredDoctors/FeaturedDoctors";
 import Header from "./header/Header";
+import RecentBlogs from "./recentBlogs/RecentBlogs";
 import Testimonials from "./testimonials/Testimonials";
 import TopSpecialties from "./topSpecialties/TopSpecialties";
 import WhyChooseUs from "./whyChooseUs/WhyChooseUs";
@@ -36,6 +37,10 @@ const Home = () => {
             {/* FAQ */}
             <FAQ />
             {/* FAQ end */}
+
+            {/* Recent blogs */}
+            <RecentBlogs></RecentBlogs>
+            {/* Recent blogs end */}
         </div>
     );
 };

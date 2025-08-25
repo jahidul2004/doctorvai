@@ -1,0 +1,142 @@
+[
+    {
+        "id": "blg-001",
+        "title": "How AI Triage Is Changing Primary Care",
+        "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1400&auto=format&fit=crop",
+        "publishedDate": "2025-07-10",
+        "category": "Health",
+        "publishedBy": {
+            "name": "Dr. Aisha Rahman",
+            "imageUrl": "https://i.pravatar.cc/150?img=11",
+            "shortDesc": "GP & digital health nerd."
+        },
+        "description": "AI-assisted triage can shave minutes off intake and flag high-risk symptoms before a human even looks. Here’s how clinics are rolling it out without overwhelming staff.",
+        "tags": ["healthtech", "ai", "primary-care", "triage", "workflow"]
+    },
+    {
+        "id": "blg-002",
+        "title": "Serverless vs. Containers: Pick the Right Horse",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1400&auto=format&fit=crop",
+        "publishedDate": "2025-06-22",
+        "category": "Tech",
+        "publishedBy": {
+            "name": "Nusrat Jahan",
+            "imageUrl": "https://i.pravatar.cc/150?img=12",
+            "shortDesc": "Cloud architect, writes cheat sheets."
+        },
+        "description": "Latency, cold starts, cost curves—oh my. We break down when serverless shines and when containers keep your bill sane and your control intact.",
+        "tags": ["cloud", "serverless", "containers", "devops", "cost"]
+    },
+    {
+        "id": "blg-003",
+        "title": "7 Underrated Beaches in Southeast Asia",
+        "image": "https://images.unsplash.com/photo-1505764706515-aa95265c5abc?q=80&w=1400&auto=format&fit=crop",
+        "publishedDate": "2025-05-03",
+        "category": "Travel",
+        "publishedBy": {
+            "name": "Kian Nguyen",
+            "imageUrl": "https://i.pravatar.cc/150?img=13",
+            "shortDesc": "Backpacker turned travel writer."
+        },
+        "description": "Skip the crowded hotspots. From crystal lagoons to quiet fishing villages, these beaches are perfect for slow mornings and sunset snacks.",
+        "tags": ["beach", "asia", "budget-travel", "hidden-gems", "itinerary"]
+    },
+    {
+        "id": "blg-004",
+        "title": "Meal Prep That Doesn’t Taste Like Sad Fridge",
+        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=1400&auto=format&fit=crop",
+        "publishedDate": "2025-03-18",
+        "category": "Food",
+        "publishedBy": {
+            "name": "Sadia Karim",
+            "imageUrl": "https://i.pravatar.cc/150?img=14",
+            "shortDesc": "Home cook, flavor-first."
+        },
+        "description": "Batch once, feast all week. These five make-ahead dishes keep texture and punchy flavor—no soggy pasta or limp greens allowed.",
+        "tags": ["meal-prep", "recipes", "nutrition", "budget", "home-cooking"]
+    },
+    {
+        "id": "blg-005",
+        "title": "Designing Dark Mode Without the Mud",
+        "image": "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=1400&auto=format&fit=crop",
+        "publishedDate": "2025-02-09",
+        "category": "Design",
+        "publishedBy": {
+            "name": "Rafi Chowdhury",
+            "imageUrl": "https://i.pravatar.cc/150?img=15",
+            "shortDesc": "Product designer; contrast cop."
+        },
+        "description": "Dark UI shouldn’t be gray soup. Learn contrast math, elevation tips, and color token strategy so your night mode actually feels premium.",
+        "tags": ["ui", "ux", "dark-mode", "accessibility", "color"]
+    },
+    {
+        "id": "blg-006",
+        "title": "Personal Finance OS: A Simple Weekly Ritual",
+        "image": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=1400&auto=format&fit=crop",
+        "publishedDate": "2024-12-29",
+        "category": "Finance",
+        "publishedBy": {
+            "name": "Maya Patel",
+            "imageUrl": "https://i.pravatar.cc/150?img=16",
+            "shortDesc": "Ex-banker, pro at calm money."
+        },
+        "description": "One hour a week to review cash flow, automate bills, and nudge savings. The system is boring on purpose—and that’s why it works.",
+        "tags": ["budgeting", "habits", "automation", "saving", "money-mgmt"]
+    },
+    {
+        "id": "blg-007",
+        "title": "Study Smarter: The 3-Layer Note System",
+        "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=1400&auto=format&fit=crop",
+        "publishedDate": "2024-11-15",
+        "category": "Education",
+        "publishedBy": {
+            "name": "Omar Faruk",
+            "imageUrl": "https://i.pravatar.cc/150?img=17",
+            "shortDesc": "Learning science enthusiast."
+        },
+        "description": "Capture, condense, and connect. This note strategy turns messy highlights into memory you can actually recall on exam day.",
+        "tags": ["study", "notes", "memory", "productivity", "students"]
+    },
+    {
+        "id": "blg-008",
+        "title": "Beginner’s Guide to Strength Training at Home",
+        "image": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?q=80&w=1400&auto=format&fit=crop",
+        "publishedDate": "2024-10-02",
+        "category": "Fitness",
+        "publishedBy": {
+            "name": "Jason Kim",
+            "imageUrl": "https://i.pravatar.cc/150?img=18",
+            "shortDesc": "Coach; form over ego."
+        },
+        "description": "No gym, no problem. With two dumbbells and smart progressions, you’ll hit full-body strength safely in 30 minutes.",
+        "tags": ["workout", "strength", "beginner", "home-gym", "mobility"]
+    },
+    {
+        "id": "blg-009",
+        "title": "What’s Actually Inside Your Skincare Label",
+        "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1400&auto=format&fit=crop",
+        "publishedDate": "2024-09-12",
+        "category": "Lifestyle",
+        "publishedBy": {
+            "name": "Lila Ahmed",
+            "imageUrl": "https://i.pravatar.cc/150?img=19",
+            "shortDesc": "Ingredient nerd, SPF stan."
+        },
+        "description": "Niacinamide, AHAs, ceramides—buzzwords decoded. We translate INCI speak so you can build a routine that actually fits your skin.",
+        "tags": ["skincare", "ingredients", "routine", "beauty", "wellness"]
+    },
+    {
+        "id": "blg-010",
+        "title": "The Solar Basics Homeowners Always Miss",
+        "image": "https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1400&auto=format&fit=crop",
+        "publishedDate": "2024-08-01",
+        "category": "Sustainability",
+        "publishedBy": {
+            "name": "Arman Hossain",
+            "imageUrl": "https://i.pravatar.cc/150?img=20",
+            "shortDesc": "Energy analyst; numbers guy."
+        },
+        "description": "Panel efficiency is only half the story. Roof angle, local tariffs, and inverter choice can swing ROI by years. Here’s the checklist.",
+        "tags": ["solar", "energy", "home", "roi", "climate"]
+    }
+]
