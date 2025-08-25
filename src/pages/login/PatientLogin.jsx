@@ -32,7 +32,7 @@ const PatientLogin = () => {
                             </legend>
                             <input
                                 type="email"
-                                className="input"
+                                className="input w-full"
                                 placeholder="Enter your email"
                             />
                         </fieldset>
@@ -42,7 +42,7 @@ const PatientLogin = () => {
                             </legend>
                             <input
                                 type="password"
-                                className="input"
+                                className="input w-full"
                                 placeholder="Enter your password"
                             />
                         </fieldset>
