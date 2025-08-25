@@ -64,7 +64,7 @@ const NavBar = () => {
             <li className="mx-0 md:mx-1 lg:mx-2">
                 <NavLink
                     className="bg-[#012047] btn btn-sm rounded-full text-md text-white border-none px-4"
-                    to="/"
+                    to="/register/patient"
                 >
                     <FaUserPlus />
                     Register
@@ -128,7 +128,7 @@ const NavBar = () => {
                 />
                 <div className="drawer-content flex flex-col">
                     {/* Navbar */}
-                    <div className="sticky bg-white top-0 w-[96%] md:w-full mx-auto navbar px-1 md:px-10 lg:px-16">
+                    <div className="shadow-sm sticky bg-white top-0 w-[96%] md:w-full mx-auto navbar px-1 md:px-10 lg:px-16">
                         <div className="flex-1">
                             <img className="w-[180px]" src={logo} alt="" />
                         </div>
